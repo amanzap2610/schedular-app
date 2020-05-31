@@ -10,7 +10,7 @@ urlpatterns = patterns(
     '', url(
         r'^', include('happenings.urls', namespace='calendar')
     ), url(
-        r'^admin/', include(admin.site.urls)
+     r'^admin/', include(admin.site.urls)
     ),
 )
 
